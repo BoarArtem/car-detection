@@ -3,7 +3,8 @@ from ultralytics import YOLO
 def train_model():
     model = YOLO("yolo26n.pt")
 
-    model.train(data="data/data.yaml", epochs=100)
+    model.train(data="data/data.yaml", epochs=20)
 
-train_model()
+if __name__ == "__main__":
+    train_model()
 
