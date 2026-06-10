@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Bicycle', 'Bus', 'Jeepney', 'Motorcycle', 'Multicab', 'Pickup', 'SUV', 'Sedan', 'Truck', 'Van', 'ambulance']
+
+roboflow:
+  workspace: -cqiyb
+  project: car-detection-model-bwjpb-vdotf
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/-cqiyb/car-detection-model-bwjpb-vdotf/dataset/1
